@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+/* Styling for the container with class .App */
+.App {
+  background-image: url("../src/img/BACKROUND.jpg");
+  background-size: cover;
+  /* Other styling properties */
+
+  /* Reset margin and padding for the container */
+  /* margin: 50px; */
+  padding: 300px;
+}
+
+/* Styling for img elements within the .App container */
+.App img {
+  width: 100%; /* This sets the width of the image to 100% of its parent container */
+  /* You can add more styling properties here if needed */
+}
+.App h1{
+  margin-top: -280px;
+
+}
